@@ -1,0 +1,13 @@
+*{
+    padding:0;
+    margin:0
+}
+body{
+    background-image: url('./img/black3.png');
+    background-repeat: repeat;
+    font-family: 'Signika', sans-serif;
+}
+.app{
+    color:#ffeaa7;
+    
+}

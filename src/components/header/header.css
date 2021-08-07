@@ -1,0 +1,167 @@
+.header{
+    display: flex;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.titleData{
+    display: flex;
+    flex-direction: row;
+}
+.profileImgDiv{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileImg{
+    margin: auto;
+    width: 80%;
+    transition: all .5s ease-in-out;
+    filter: grayscale(80%);
+    border: 7px solid #d63031;
+    border-radius: 50%;
+}
+.profileImgHover {
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    filter: grayscale(0%);
+    border: 7px solid #d63031;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.linGitLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+.linkImg{
+    margin: 10px 0;
+    width: 45px;
+    height: 45px;
+}
+.img{
+    width: 100%;
+    margin: auto;
+}
+.git{
+    background-color: blanchedalmond;
+    border-radius: 50%;
+}
+.cvLinka{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.cv{
+    width: 80%;
+}
+.saludo{
+    font-size: calc(1em + 1.5vw);
+    margin-left: 5vw;
+    user-select: none;
+    top: -150px;
+}
+.h1{
+    display: inline-block;
+    margin: 1vw;
+    font-size: calc(2em + 1.8vw);
+    color:#dfe6e9;
+    transition: all .5s ease-in-out;
+}
+.h1Hover{
+    display: inline-block;
+    margin: 1vw;
+    font-size: calc(2em + 1.83vw);
+    transition: all .5s ease-in-out;
+    color: #d63031;
+}
+.h2{
+    display: inline-block;
+    margin: 1vw;
+    font-size: calc(1.7em + 0.7vw);
+}
+.coments{
+    line-height: 40px;
+    margin: 0.5vw 0 0 5vw;
+    font-size: 1.7em;
+    color: #74b9ff;
+}
+.coments1{
+    margin-top: 2vw;
+}
+.demasiado{
+    font-style: italic;;
+    color: #0984e3;
+}
+@media( min-width: 1152px ) {
+    .profileImg{
+        width: 245px;
+    }
+    .profileImgHover{
+        width: 245px;
+    }
+}
+@media( max-width:840px ){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .data{
+        width: 90%;
+    }
+    .profileImgDiv{
+        margin-top: 3vh;
+        width: 90%;
+        flex-direction: row;
+    }
+    .profileImg{
+        width: 22vh;
+    }
+    .profileImgHover {
+        width: 22vh;
+    }
+    .links{
+        width: 70%;
+    }
+    .cvLink{
+        width: 250px;
+    }
+    .linGitLinks{
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .saludo{
+        margin: 0;
+    }
+}
+@media(max-width:540px ){
+    .profileImg{
+        width: 27vw;
+    }
+    .profileImgHover{
+        width: 27vw;
+    }
+}
+@media(max-width:400px ){
+    .profileImg{
+        display: none;
+    }
+    .profileImgHover {
+        display: none;
+    }
+}

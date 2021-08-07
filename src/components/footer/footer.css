@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon{
+    width: 70px;
+    margin: 0 30px 40px 30px;
+}
