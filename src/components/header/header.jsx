@@ -30,8 +30,10 @@ export function Header() {
     const {ref, inView } = useInView()
     const animation = useAnimation()
     const titleAnimation = useAnimation()
-
+    
     useEffect(() => {
+        
+        /* const view =  (  */
         if (inView) {
             animation.start({
                 x: '0px',
@@ -54,7 +56,7 @@ export function Header() {
                 opacity: 0
             })
         }
-    }, [inView])
+    }, [inView, animation, titleAnimation])
 
 
     return (
