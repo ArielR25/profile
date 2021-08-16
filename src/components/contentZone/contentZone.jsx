@@ -8,7 +8,7 @@ const cardContents = [
         name:'API de videojuegos',
         github:'https://github.com/ArielR25/PI-Henry-VideoGames',
         img,
-        video:<iframe className='ytVideo' width="560" height="315" src="https://www.youtube.com/embed/bxpFbtHMhjA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+        video:<iframe className='ytVideo' width="560" height="315" src="https://www.youtube.com/embed/mBtUklY4L8U" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
         description: 'descripcion-del-proyecto-escrita asldkjfsldkfj asd lksdjf lsdf lsdkf sdlfk slfsj dlsj afljs laskdjf asldf jasld fjsal dfj asldkfjsald kfjasldfkj saldf j asldkfjasl dkfj asldkfj asldkjfasl dkjf sladfj asldkfj saldkfj asldkfj lsdkf jlsadkfj sladkfj lsadkfjsaldf ldskj saldfk jas aslñdkjfl asdkfj alsdkfj asldkfjsa ldkfajs ldkfjas ldkfj alsdkfj lskj laskdjfalsdkfj alsdkfj asldkfj asldñfk jasdlkj'
     },
     {
