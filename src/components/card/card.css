@@ -88,6 +88,7 @@
     height: 95%;
     overflow: hidden;
     overflow-y: auto;
+    font-size: 18px;
 }
 .h4CardDiv{
     display: flex;
