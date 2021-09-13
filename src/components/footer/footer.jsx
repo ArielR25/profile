@@ -12,23 +12,26 @@ import node from '../../img/nodeJS.png';
 import css3 from '../../img/CSS3.png';
 
 const icons = [
-    {name:'javascript icon', img: js},
-    {name:'react icon' , img: react},
-    {name:'redux icon' , img: redux},
-    {name:'postgresql icon' , img: postgre},
-    {name:'sequelize icon' , img: sequelize},
-    {name:'nodeJS icon' , img: node},
-    {name:'html5 icon' , img: html},
-    {name:'css3 icon' , img: css3},
-    {name:'git icon' , img: git},
-    {name:'github icon' , img:github},
+    {name:'Javascript', img: js},
+    {name:'React' , img: react},
+    {name:'Redux' , img: redux},
+    {name:'PostgreSQL' , img: postgre},
+    {name:'Sequelize' , img: sequelize},
+    {name:'NodeJS' , img: node},
+    {name:'HTML5' , img: html},
+    {name:'CSS3' , img: css3},
+    {name:'Git' , img: git},
+    {name:'GitHub' , img:github},
 ];
 
 export function Footer() {
     return (
         <div className='footer'>
             {icons.map( (icon) => {
-                return <img key={icon.name} className='icon' src={icon.img} alt={icon.name} />
+                return (<div className='skill'>
+                <p className='title'>{icon.name}</p>
+                <img key={icon.name} className='icon' src={icon.img} alt={icon.name} />
+                </div>)
             })}
         </div>
     )

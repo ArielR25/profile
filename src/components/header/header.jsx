@@ -33,7 +33,6 @@ export function Header() {
     
     useEffect(() => {
         
-        /* const view =  (  */
         if (inView) {
             animation.start({
                 x: '0px',
